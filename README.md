@@ -2,6 +2,10 @@
 
 This repository contains a Python implementation of the **Disjoint Set** (also known as **Union-Find**) data structure. The implementation includes optimizations such as **path compression** and **union by rank** to ensure efficient operations.
 
+Library is available on [pypi](https://pypi.org/project/disjoint-set-struct/) and can be installed through pip:
+```
+pip install disjoint-set-struct
+```
 ## Features
 - **Find**: Determine the root of the set containing a given element.
 - **Union**: Merge two sets into one.
